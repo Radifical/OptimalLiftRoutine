@@ -11,14 +11,14 @@ for(var i = 0; i < array.length; i++) {
     // Create the list item:
     var item = document.createElement('li');
 
-    // Set its contents:
+    
     item.appendChild(document.createTextNode(Math.round(array[i])+"x"+repSets[i]));
 
-    // Add it to the list:
+    
     list.appendChild(item);
 }
 
-// Finally, return the constructed list:
+
 return list;
 }
 
@@ -31,12 +31,9 @@ function displayImage(src, width, height) {
    }
 
 
-
 function calcMax(form){
     var max = document.getElementById("1rm").value;
     var bw = document.getElementById("bw").value;
-
-    
 
     var options = [
         set0 = [45,max*.60,max*.75,max,max*.85,135],
@@ -49,10 +46,12 @@ function calcMax(form){
 if(document.getElementById('bench').checked == true) {   
         console.log("bench");
         displayImage("lifticons/bench-press.png",200,200);
-} else if(document.getElementById('squat').checked == true) {   
+}
+    else if(document.getElementById('squat').checked == true) {   
       console.log("squat");
       displayImage("lifticons/squats.png",200,200);
 }
+    
  else{
       displayImage("lifticons/deadlift.png",200,200);
 }
