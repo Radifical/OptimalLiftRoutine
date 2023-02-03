@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<link rel="stylesheet" href="style.css">
+<script src = "main.js"></script>
+
+
+
+<!-- JS form scrapper -->
+<form>
+  <p style="font-weight: bold;">Optimal Routine Generator</p>
+  <label for="1rm">Current 1rm:</label><br>
+  <input type="text" id="1rm" name="1rm" value=""><br>
+
+  <label for="bw">Bodyweight:</label><br>
+  <input type="text" id="bw" name="bw" value=""><br>
+
+  <fieldset>
+    <br>
+    <legend>Choose Lift:</legend>
+  <input type="radio" id="bench" name="fav_language" value="Bench Press">
+  <label for="bench">Bench Press</label><br>
+  <input type="radio" id="dl" name="fav_language" value="Deadlift">
+  <label for="dl">Deadlift</label><br>
+  <input type="radio" id="squat" name="fav_language" value="Squat">
+  <label for="squat">Squat</label>
+</fieldset>
+  <label for=""></label><br>
+  <input type="button" name="button" value="Calculate" onClick="calcMax(this.form)">
+
+  <br>
+  <!-- Gen list -->
+  <div id="visual"></div><br>
+  
+  <div id="routine"></div>
+
+</form>
+</body>
+
+
+
+</html>

@@ -1,0 +1,53 @@
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+body {
+    text-align: center;
+}
+
+
+
+ul {
+    list-style: none;
+  }
+  
+  li {
+    padding: 30px;
+    border: 1px solid rebeccapurple;
+    width: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    fill: lightskyblue;
+    background: rgb(168, 193, 236);
+    text-emphasis: 10;
+  }
+
+  
+form {
+    background-color: #e5f5f8;
+    border-radius: 10px;
+    font-family: Avenir;
+    padding: 20px;
+    width: 400px;
+    display: inline-block;
+   }
+  
+  
+  #form-prompt {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  button { margin-top: 10px; }
+  
+  button:hover, input:hover, label:hover { cursor: pointer; }
